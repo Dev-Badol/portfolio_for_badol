@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -96,23 +96,25 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-36">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let's Connect
               </p>
-              <div className="flex gap-6">
+              <div className="flex mr-4 pt-6  gap-4">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                   <FaLinkedinIn />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                   <FaGithub />
                 </div>
+               
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
-                  <BsFillPersonLinesFill />
+                  <AiOutlineMail />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                   <AiOutlineMail />
                 </div>
+             
               </div>
             </div>
           </div>
