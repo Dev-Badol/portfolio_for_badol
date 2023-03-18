@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
 
-const inter = Inter({ subsets: ['latin'] })
+import { Inter } from "next/font/google";
+import Navbar from "@/components/Navbar/Navbar";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -15,8 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-   <h1 className='text-blue-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab dolores quae aspernatur. Iusto facilis optio ea minima, consectetur repellat repellendus, earum minus ullam harum quos molestiae quae consequatur perspiciatis.</h1>
+     <Navbar />
       </main>
     </>
-  )
+  );
 }
