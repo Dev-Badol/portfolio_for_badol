@@ -3,6 +3,8 @@ import Head from "next/head";
 
 import Navbar from "@/components/Navbar/Navbar";
 import Main from "@/components/Main/Main";
+import Who from "@/components/Who/Who";
+import Skill from "@/components/Skill/Skill";
 
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <Navbar />
 
       <Main />
+      <Who />
+      <Skill />
     </div>
   );
 }
