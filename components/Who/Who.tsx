@@ -8,8 +8,8 @@ const Who = () => {
       <div>
        <ul className=''>
         <li>web</li>
-        <li>one</li>
-        <li>tow</li>
+        <li>onde</li>
+        <li>tovw</li>
         <li>ddd</li>
        </ul>
       </div>
