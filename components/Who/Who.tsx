@@ -10,7 +10,7 @@ const Who = () => {
         <li>web</li>
         <li>one</li>
         <li>tow</li>
-        <li>dddddd</li>
+        <li>ddd</li>
        </ul>
       </div>
       <div>
